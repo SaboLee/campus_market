@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6b4b818-d921-4cbe-acc9-886deed27a8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/campus_market.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/admin/interceptor/AuthorityInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/admin/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/annotion/ValidateEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/bean/CodeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/bean/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/bean/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/config/SiteConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/config/admin/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/constant/RuntimeConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/constant/SessionConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/controller/admin/DatabaseBakController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/controller/admin/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/controller/admin/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/controller/admin/SystemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/controller/admin/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/controller/common/CpachaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/controller/common/PhotoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/controller/common/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/dao/admin/DatabaseBakDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/dao/admin/MenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/dao/admin/OperaterLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/dao/admin/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/dao/admin/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/entity/admin/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/entity/admin/DatabaseBak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/entity/admin/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/entity/admin/OperaterLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/entity/admin/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/entity/admin/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/listener/SessionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/schedule/admin/BackUpSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/service/admin/DatabaseBakService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/service/admin/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/service/admin/OperaterLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/service/admin/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/service/admin/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/util/CpachaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/util/MenuUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/util/SessionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top.sabolee.campus_market/util/ValidateEntityUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prd.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backup/db_boot_base_20200322191250.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backup/db_boot_base_20200322193706.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backup/db_boot_base_20200323174707.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/site.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/materialdesignicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/materialdesignicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/materialdesignicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/materialdesignicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/materialdesignicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/materialdesignicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/captcha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/default-head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/gallery/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/img-slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/img-slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/img-slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/img-slide-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/img-slide-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/logo-ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/logo-sidebar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/users/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-colorpicker/bootstrap-colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-colorpicker/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-colorpicker/css/bootstrap-colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-colorpicker/css/bootstrap-colorpicker.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-colorpicker/img/bootstrap-colorpicker/alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-colorpicker/img/bootstrap-colorpicker/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-colorpicker/img/bootstrap-colorpicker/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/bootstrap-datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/bootstrap-datepicker3.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/bootstrap-datepicker3.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.nb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/ar-ma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/ar-sa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/ar-tn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/be.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/bo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/cv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/de-at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/fy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/hy-am.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/jv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/lb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/mr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/ms-my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/nn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/sr-cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/ta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/tl-ph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/tzl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/tzm-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/tzm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/uz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/locale/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-notify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/chosen.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/ion-rangeslider/ion.rangeSlider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/ion-rangeslider/ion.rangeSlider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/jconfirm/jquery-confirm.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/jconfirm/jquery-confirm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/jquery-tags-input/jquery.tagsinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/jquery-tags-input/jquery.tagsinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/jquery.bootstrap.wizard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/lightyear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/common/footer.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/common/header-menu.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/common/header.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/common/icons.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/common/left-menu.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/common/third-menu.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/database_bak/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/menu/add.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/menu/edit.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/menu/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/role/add.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/role/edit.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/role/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/system/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/system/login.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/system/no_right.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/system/operator_log_list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/system/update_pwd.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/system/update_userinfo.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/user/add.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/user/edit.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/user/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/404.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/405.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/500.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload/20200318/1584524684687.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload/20200318/1584524856655.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload/20200318/1584528369493.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload/20200318/1584528665073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload/20200318/1584528789017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload/20200318/1584528797707.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload/20200318/1584528956809.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload/20200318/1584530412075.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload/20200322/1584847723819.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload/20200322/1584849717074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload/20200322/1584849735063.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload/20200322/1584850135123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload/20200323/1584956641236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload/20200323/1584956702094.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-prd.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backup/db_boot_base_20200322191250.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backup/db_boot_base_20200322193706.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backup/db_boot_base_20200323174707.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/site.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/css/materialdesignicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/materialdesignicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/materialdesignicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/materialdesignicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/materialdesignicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/materialdesignicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/captcha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/default-head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/gallery/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/img-slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/img-slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/img-slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/img-slide-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/img-slide-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/logo-ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/logo-sidebar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/users/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-colorpicker/bootstrap-colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-colorpicker/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-colorpicker/css/bootstrap-colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-colorpicker/css/bootstrap-colorpicker.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-colorpicker/img/bootstrap-colorpicker/alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-colorpicker/img/bootstrap-colorpicker/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-colorpicker/img/bootstrap-colorpicker/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/bootstrap-datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/bootstrap-datepicker3.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/bootstrap-datepicker3.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.nb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/ar-ma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/ar-sa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/ar-tn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/be.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/bo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/cv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/de-at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/fy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/hy-am.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/jv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/lb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/mr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/ms-my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/nn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/sr-cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/ta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/tl-ph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/tzl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/tzm-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/tzm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/uz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/locale/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-datetimepicker/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap-notify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/chosen.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/ion-rangeslider/ion.rangeSlider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/ion-rangeslider/ion.rangeSlider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/jconfirm/jquery-confirm.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/jconfirm/jquery-confirm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/jquery-tags-input/jquery.tagsinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/jquery-tags-input/jquery.tagsinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/jquery.bootstrap.wizard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/lightyear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/common/footer.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/common/header-menu.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/common/header.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/common/icons.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/common/left-menu.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/common/third-menu.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/database_bak/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/menu/add.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/menu/edit.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/menu/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/role/add.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/role/edit.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/role/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/system/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/system/login.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/system/no_right.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/system/operator_log_list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/system/update_pwd.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/system/update_userinfo.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/user/add.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/user/edit.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/user/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/error/404.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/error/405.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/error/500.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/top/sabolee/campus_market/admin/interceptor/AuthorityInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/top/sabolee/campus_market/admin/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/top/sabolee/campus_market/config/SiteConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/top/sabolee/campus_market/config/admin/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/top/sabolee/campus_market/dao/admin/DatabaseBakDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/top/sabolee/campus_market/dao/admin/RoleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/top/sabolee/campus_market/entity/admin/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/top/sabolee/campus_market/entity/admin/DatabaseBak.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/top/sabolee/campus_market/entity/admin/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/top/sabolee/campus_market/entity/admin/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/top/sabolee/campus_market/schedule/admin/BackUpSchedule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/top/sabolee/campus_market/util/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/upload/20200318/1584524684687.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/upload/20200318/1584524856655.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/upload/20200318/1584528369493.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/upload/20200318/1584528665073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/upload/20200318/1584528789017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/upload/20200318/1584528797707.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/upload/20200318/1584528956809.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/upload/20200318/1584530412075.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/upload/20200322/1584847723819.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/upload/20200322/1584849717074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/upload/20200322/1584849735063.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/upload/20200322/1584850135123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/upload/20200323/1584956641236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/upload/20200323/1584956702094.png" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jb2yWZ7JRHN0JOFM0liZ5FmOJl" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sabolee\Desktop\campus_market\campus_market\src\main" />
+      <recent name="C:\Users\sabolee\Desktop\campus_market\campus_market\src\main\java\top.sabolee.campus_market" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sabolee\Desktop\campus_market\campus_market\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="campus_market" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.sabolee.campus_market.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.sabolee.campus_market.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6b4b818-d921-4cbe-acc9-886deed27a8e" name="Default Changelist" comment="" />
+      <created>1604058724228</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604058724228</updated>
+      <workItem from="1604058727859" duration="2058000" />
+      <workItem from="1604124417216" duration="1955000" />
+      <workItem from="1604126403465" duration="8789000" />
+      <workItem from="1604207636021" duration="3303000" />
+      <workItem from="1604222279772" duration="341000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
