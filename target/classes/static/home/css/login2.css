@@ -226,7 +226,7 @@ width: 80px;_width: 75px;_font-size:12px;}
 	*border-bottom:none;
 	color:#fff;
 	font-size:16px;padding:0 10px;*width:140px;
-	text-align:center;outline:none;font-family: "Microsoft Yahei",Arial, Helvetica, sans-serif;
+	text-align:center;outline:none;font-family: "Microsoft Yahei" ,Helvetica ,Arial , sans-serif;
 }
 input.button_blue:hover
 {
