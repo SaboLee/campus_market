@@ -70,7 +70,34 @@ function upload(showPictureImg,input){
 	var formData = new FormData();
 	formData.append('photo',document.getElementById('select-file').files[0]);
 	$.ajax({
-		url:'/upload/upload_photo',
+		url:'/admin/upload/upload_photo',
+		contentType:false,
+		processData:false,
+		data:formData,
+		type:'POST',
+		success:function(data){
+				if(data.code == 0){
+					showSuccessMsg('图片上传成功!',function(){
+						$("#"+showPictureImg).attr('src','/photo/view?filename=' + data.data);
+						$("#"+input).val(data.data);
+					})
+				}else{
+					data = $.parseJSON(data);
+					showErrorMsg(data.msg);
+				}
+			},
+			error:function(data){
+				alert('网络错误!');
+			}
+	});
+}
+//统一多图片上传方法
+function uploadMuilt(showPictureImg,input,selectFile){
+	//formdata
+	var formData = new FormData();
+	formData.append('photo',document.getElementById(selectFile).files[0]);
+	$.ajax({
+		url:'/admin/upload/upload_photo',
 		contentType:false,
 		processData:false,
 		data:formData,

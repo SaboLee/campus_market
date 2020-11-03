@@ -18,7 +18,8 @@ public class RuntimeConstant {
 			"/admin/js/**",
 			"/admin/images/**",
 			"/error",
-			"/cpacha/generate_cpacha"
+			"/cpacha/generate_cpacha",
+			"/home/**"
 		);
 	//权限拦截器无需拦截的url
 	public static List<String> authorityExcludePathPatterns = Arrays.asList(
@@ -34,6 +35,7 @@ public class RuntimeConstant {
 			"/system/logout",
 			"/system/update_userinfo",
 			"/system/update_pwd",
-			"/photo/view"
+			"/photo/view",
+			"/home/**"
 		);
 }
